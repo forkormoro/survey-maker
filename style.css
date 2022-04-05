@@ -1,0 +1,112 @@
+
+   body{
+        background-color: #0f1d26;
+        width: 60%;
+        position: relative; 
+        border-radius: 50px;
+
+    }
+    h1{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        
+    }
+    h2{
+        padding-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        padding-top: 10px;
+        border-radius: 5px;
+        margin-left: 5px; ;
+        color: rgb(163, 154, 154);
+    }
+    .option-1{
+        width: 95%;
+        border: 1px solid grey ;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        outline: none;
+        
+    }
+  .option{
+        width: 95%;
+        border-radius: 10px;
+        margin-left: 5px;
+        color: white;
+    } 
+    h3{
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    }
+    h4{
+        font-family: Tahoma;
+        margin-right: 60px;
+        padding: 0px;
+    }
+    .checkbox{
+        margin-right: 50px;
+        font-size: 14px;  
+        font-family: Tahoma;
+        color: white;
+    }
+    .radio{
+        margin-left: 50px;
+        font-family: Tahoma;
+        color: whitesmoke;
+    }
+    p{
+        color: rgb(153, 143, 143);
+        margin-bottom: 0px;
+    }
+    input{
+        background-color: #314054;
+        border: 1px solid grey ;
+        outline: none;
+    }
+    .options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+       margin-top: 1.2em;
+       text-align: center;
+       border-radius: 10px;
+       margin-left: 35%;
+       background-color: #192535;
+    }
+    .container{
+        display: grid;
+        width:100vw;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        grid-area: auto;
+        grid-gap:1.2em;
+         
+
+    }
+    #h1{
+        color: #6c95d6;
+        font-size: large;
+    }
+    #p{
+        color: white;
+        font-size: 14px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-display: center;
+    }
+
+    /* this section of the code is for responsiveness */
+    @media screen and(max-width:600px)
+{
+ .cont1{
+     display: block;
+ }
+ 
+}
